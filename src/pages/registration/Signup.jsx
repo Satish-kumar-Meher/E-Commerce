@@ -22,7 +22,7 @@ const Signup = () => {
         name: "",
         email: "",
         password: "",
-        role: ""
+        role: "user"
     });
 
 
@@ -130,7 +130,7 @@ const Signup = () => {
 
 
                 {/* Input: Role */}
-                <div className="mb-5">
+{/*                 <div className="mb-5">
                     <select
                         value={userSignup.role}
                         onChange={(e) => setUserSignup({ ...userSignup, role: e.target.value })}
@@ -140,7 +140,7 @@ const Signup = () => {
                         <option value="user">User</option>
                         <option value="admin">Admin</option>
                     </select>
-                </div>
+                </div> */}
 
                 {/* Input Three  */}
                 <div className="mb-5">
